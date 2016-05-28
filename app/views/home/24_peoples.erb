@@ -1,0 +1,103 @@
+<%= render partial: "/layouts/navigation" %>
+
+ <!-- Page Content -->
+    <div class="container">
+
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">cafe peoples
+               
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-8">
+                <img class="img-responsive" id="myimg"  src="http://cafeptthumb1.phinf.naver.net/20160528_102/georgeyeon_14644226398861QNBi_JPEG/24.jpg?type=w740" alt="">
+                <button id="mybtn">click me!</button>
+            </div>
+
+            <div class="col-md-4">
+              <div class="well">                            	          
+                <font face="Comic Sans MS">                        	                            
+                <h3>Menu</h3>                       	                               
+                  <ul class ="list-group">         
+                    <div class="well">                            	          
+                    <li class="list-group-item">커피　2.0~3.9</li>
+                    <li class="list-group-item">라떼　3.2~3.9</li>
+                    <li class="list-group-item">프라프피노　3.0~3.5</li>
+                    <li class="list-group-item">티　3.0~3.9</li>
+                    <li class="list-group-item">주스,스무디　3.5~3.9</li>
+                    <li class="list-group-item">디저트류　5.0</li>
+                    <li class="list-group-item">빙수류　4.5~10.9</li>
+                  </ul>
+                </font>
+            </div>
+            <a class="btn btn-default" href="/home/index_3" role="button">목록</a>
+            </div>
+						
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h3 class="page-header">내부사진</h3>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+               
+                    <img class="img-responsive portfolio-item" src="http://cafeptthumb1.phinf.naver.net/20160528_244/lastindus_1464424668418KcuDT_JPEG/KakaoTalk_20160528_123841157.jpg?type=w740" alt="">
+                
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+               
+                    <img class="img-responsive portfolio-item" src="http://cafeptthumb3.phinf.naver.net/20160528_99/lastindus_1464424669168q7NaE_JPEG/KakaoTalk_20160528_123841774.jpg?type=w740" alt="">
+                
+            </div>
+            
+            <div class="col-sm-3 col-xs-6">
+               
+                    <img class="img-responsive portfolio-item" src="http://cafeptthumb3.phinf.naver.net/20160528_99/lastindus_1464424671796fVuwF_JPEG/KakaoTalk_20160528_123845076.jpg?type=w740" alt="">
+               
+            </div>
+
+          
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="../assets/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap.min.js"></script>
+    
+<script>
+    $(document).ready(function(){
+        $("#mybtn").click(fucntion(){
+            $("#myimg").attr("src","http://cafeptthumb1.phinf.naver.net/20160528_244/lastindus_1464424668418KcuDT_JPEG/KakaoTalk_20160528_123841157.jpg?type=w740");
+        });
+    });
+</script>
